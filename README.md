@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# 💬 Realtime Chat App
+![image](https://github.com/user-attachments/assets/d505042c-9ceb-45ac-83ce-b3c08da7b82b)
+Conecte-se com o mundo em tempo real com segurança e velocidade.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descrição do Projeto
+O Realtime Chat App é uma aplicação poderosa e escalável para comunicação em tempo real. Com Socket.IO para conexões em tempo real e a MERN stack (MongoDB, Express, React, Node.js) no núcleo, esta aplicação fornece uma experiência de chat fluida e segura com autenticação de rotas e funcionalidades modernas.
 
-Currently, two official plugins are available:
+## Funcionalidades
+🟢 Mensagens em Tempo Real: Envio e recebimento instantâneo usando Socket.IO. <br/>
+🔐 Autenticação Segura: Proteção de rotas com autenticação JWT. <br/>
+🧑‍🤝‍🧑 Sistema de Usuários: Criação e gerenciamento de perfis. <br/>
+🗂️ Chats Privados e em Grupo: Comunicação personalizada ou em grupos. <br/>
+📦 MERN Stack: Back-end robusto com Node.js e Express, e front-end dinâmico com React. <br/>
+📊 Banco de Dados NoSQL: Armazenamento eficiente de dados com MongoDB. <br/>
+🖼️ Compartilhamento de Imagens e Emojis: Personalize suas mensagens com facilidade. <br/>
+🖼️ Demonstração do Projeto <br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tela de Login: ![image](https://github.com/user-attachments/assets/4971c6f1-266f-45b9-86ab-0931c54f5285)
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
+### Front-end
+⚛️ React: Biblioteca para construção de interfaces de usuário. <br/>
+🎨 Tailwind CSS: Estilização responsiva e moderna. <br/>
+🌐 Socket.IO-Client: Conexão em tempo real com o servidor. <br/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Back-end
+🟢 Node.js: Ambiente de execução de JavaScript no servidor. <br/>
+📦 Express.js: Framework minimalista e flexível para back-end. <br/>
+🌐 Socket.IO: Biblioteca para comunicação em tempo real. <br/>
+🔐 JWT (JSON Web Tokens): Autenticação e autorização segura. <br/>
+repositorio do back: https://github.com/CalvinSoares/realtimeChat-back
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Banco de Dados
+🍃 MongoDB: Banco de dados NoSQL para armazenamento eficiente. <br/>
